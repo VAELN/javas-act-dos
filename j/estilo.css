@@ -1,0 +1,21 @@
+.comentario {
+    background-color: #69b862;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-style: italic;
+    font-family:  cursive;
+    background-color: #a27eb9;
+
+}
+
+button {
+
+    border: none;
+    background-color: #521266;
+    color: rgb(127, 247, 111);
+    padding: 5px 10px;
+    border-radius: 8px;
+}

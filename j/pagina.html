@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javabasta</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>Formulario!</h1>
+    <h2>¿Cómo te llamas?</h2>
+    <input id="nombre" type="text" />
+    <button onclick="enviar()">Enviar</button>
+
+    <hr>
+
+    <h4>Productos:</h4>
+    <img src="" alt="Hombre banano" id="producto" height="88">
+    <br>
+    <button id="miBoton" onclick="cambiarContenido()">Agregar al carrito</button>
+
+    <hr>
+
+    <h2>Caja de Comentarios!</h2>
+    <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+    <br>
+    <button onclick="agregarComentario()">Agregar comentario</button>
+    <section id="contenedor-comentarios">
+        <h3>Comentarios:</h3>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
